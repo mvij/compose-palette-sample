@@ -263,7 +263,6 @@ fun getDefaultImageBitmap(context: Context): Bitmap {
  * @param srcHeight Height of source image
  * @param dstWidth Width of destination area
  * @param dstHeight Height of destination area
- * @param scalingLogic Logic to use to avoid image stretching
  * @return Optimal down scaling sample size for decoding
  */
 fun calculateSampleSize(
